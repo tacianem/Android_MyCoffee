@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/HeightWidth" >
+
+    <LinearLayout
+        style="@style/HeightWidth"
+        android:orientation="vertical">
+
+        <android.support.design.widget.TextInputLayout
+
+            style="@style/HeightWidth"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="16dp">
+
+            <EditText
+                android:id="@+id/name"
+                style="@style/HeightWidth"
+                android:hint="@string/name"
+                android:inputType="textPersonName" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <TextView
+            android:id="@+id/top"
+            style="@style/HeaderTextStyle"
+            android:paddingLeft="16dp"
+            android:text="@string/toppings" />
+
+        <CheckBox
+            android:id="@+id/cream"
+            style="@style/WrapContent"
+            android:layout_marginLeft="16dp"
+            android:paddingLeft="24dp"
+            android:text="@string/whipped_cream"
+            android:textSize="16sp" />
+
+        <CheckBox
+            android:id="@+id/chocolate"
+            style="@style/WrapContent"
+            android:layout_marginLeft="16dp"
+            android:paddingLeft="24dp"
+            android:text="@string/chocolate"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/quantityLabel"
+            style="@style/HeaderTextStyle"
+            android:layout_marginLeft="16dp"
+            android:text="@string/quantity" />
+
+        <LinearLayout
+            style="@style/WrapContent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/menox"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_marginBottom="16dp"
+                android:layout_marginLeft="16dp"
+                android:onClick="decrement"
+                android:text="@string/minus"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/quantityValue"
+                style="@style/WrapContent"
+                android:layout_marginBottom="16dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:text="@string/initial_quantity_value"
+                android:textColor="@android:color/black"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/maix"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_marginBottom="16dp"
+                android:onClick="increment"
+                android:text="@string/plus"
+                android:textColor="@android:color/black" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/orderButton"
+            style="@style/WrapContent"
+            android:layout_marginLeft="16dp"
+            android:onClick="submitOrder"
+            android:text="@string/order"
+            android:textAllCaps="true"
+            android:textColor="@android:color/black" />
+
+    </LinearLayout>
+
+</ScrollView>

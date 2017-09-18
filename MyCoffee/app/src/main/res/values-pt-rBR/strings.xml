@@ -1,0 +1,58 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Title for the application. [CHAR LIMIT=12] -->
+    <string name="app_name">Meu Café</string>
+
+    <string name="name">Nome</string>
+
+    <string name="toppings">Adicionais</string>
+
+    <string name="whipped_cream">Chantilly</string>
+
+    <string name="chocolate">Chocolate</string>
+
+    <string name="quantity">Quantidade</string>
+
+    <string name="plus">+</string>
+
+    <string name="minus">-</string>
+
+    <string name="initial_quantity_value">1</string>
+
+    <string name="order">Finalizar pedido</string>
+
+
+    <string name="email">Dispositivo não contém aplicativo para email. Meu Café não conseguiu realizar o pedido :(</string>
+
+
+    <string name="increment">Ops, máximo número de cafés é 100 ;P</string>
+
+    <string name="decrement">Experimente pelo menos um de nossos cafés ;)</string>
+
+
+
+    <string name="order_subject">Café para <xliff:g id="name" example="Amy">%s</xliff:g></string>
+
+    <string name="order_title">Pedido de café</string>
+
+    <!--<string name="order_name">Nome:</string>-->
+    <string name="order_name">Nome: <xliff:g id="name" example="Amy">%s</xliff:g></string>
+    <!-- <string name="order_name">Nome: <xliff:g id="name" example="Amy">%s</xliff:g></string> -->
+
+    <!--
+    Whipped cream topping for the order summary. It will be shown in the format of
+    "Add whipped cream? true" or "Add whipped cream? false". [CHAR LIMIT=NONE]
+    -->
+    <string name="order_cream">Chantilly adicionado.</string>
+
+    <string name="order_chocolate">Chocolate adicionado.</string>
+
+    <string name="order_cream_chocolate">Chantily e chocolate adicionados.</string>
+
+    <string name="order_quantity">Quantidade de cafés: <xliff:g id="quantity" example="3">%d</xliff:g></string>
+
+    <string name="order_price">Total: R$<xliff:g id="price" example="25">%d</xliff:g></string>
+
+    <string name="order_thanks">Volte sempre! ;D</string>
+
+</resources>
